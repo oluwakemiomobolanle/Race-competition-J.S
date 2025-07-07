@@ -1,0 +1,68 @@
+@import url(utility.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.marathon-wrapper{
+  max-width: 60%;
+  margin: 3rem auto 0 auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: maroon;
+}
+.registration-details {
+  max-width: 80%;
+  margin: 3rem auto 0 auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: rgb(188, 91, 91);
+}
+.marathon-wrapper h1 {
+  text-align:center ;
+  margin-bottom: 2rem;
+  color: white;
+}
+.marathon-wrapper label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.transition {
+  transition: all 0.28s ease-in-out;
+}
+button {
+  font: inherit;
+  height: 4rem;
+  display: block;
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+button:hover {
+  background-color: brown;
+}
+
+@media screen and (max-width: 900px) {
+  .marathon-wrapper{
+    max-width: 90% ;
+  }
+  .marathon-wrapper h1 {
+    font-size: 2.3rem;
+  }
+}

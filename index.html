@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Race Competition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="marathon-wrapper transition">
+      <h1>JOS MARATHON RACE (Jos north/Jos south)</h1>
+      <form id="marathon_form">
+        <label for="name">Name</label>
+        <input type="text" name="name" class="margin-bottom block" required />
+        <label for="age">Age</label>
+        <input type="number" name="age" class="margin-bottom block" required />
+        <label for="weight">Weight</label>
+        <input type="number" name="weight" class="block" required />
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female" class="margin-bottom"> Female
+        <label for="LGA">LGA</label>
+        <select name="LGA" id="Local Government" class="margin-bottom">
+          <option value="select..."></option>
+          <option value="Jos North">Jos North</option>
+          <option value="Jos South">Jos South</option>
+          <option value="Mangu">Mangu</option>
+          <option value="Bassa">Bassa</option>
+        </select>
+       
+        <button class="transition">Submit Form</button>
+       </form>
+    </div>
+    <div class="registration-details hidden"></div>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
